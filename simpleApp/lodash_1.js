@@ -1,3 +1,5 @@
-let _ = require ('lodash');
+let _ = require('lodash');
 
-let my= _.times(5, console.log("Log"));
+_.times(5, function() {
+    console.log("Log")
+});
