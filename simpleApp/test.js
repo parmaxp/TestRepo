@@ -1,4 +1,4 @@
-var lodash = require('lodash');
- 
-var output = lodash.without([1, 2, 3], 1);
-console.log(output);
+let s = "test";
+s.len = 4;
+var t = s.len;
+console.log(t);
