@@ -18,7 +18,7 @@ describe('Login Functionality', function () {
         await myAccountButton.click();
         await emailTextInput.sendKeys(user_1.emailAddress);
         await loginTextInput.sendKeys(user_1.password);
-        //protractor conf.jsawait continueButton.click();
+        await continueButton.click();
         await browser.wait(ExpectedConditions.urlContains("https://www.mandmdirect.com/Secure/Account/Welcome"),2000, "User is not logged in");
     });
 });
