@@ -17,4 +17,5 @@ let person2 = {
 };
 
 console.log(person1);
+console.log(person1.firstName);
 console.log(`Full Name: ${person1.fullName()}`);

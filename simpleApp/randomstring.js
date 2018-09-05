@@ -13,3 +13,4 @@ console.log(rs.generate({
     charset: 'abc'
 }));
 
+
