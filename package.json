@@ -1,0 +1,11 @@
+{
+    "name": "NitroCloudTest",
+    "version": "1.0.0",
+    "description": "",
+    "author": "Petro Dembitskyi",
+    "license": "ISC",
+    "dependencies": {
+        "jasmine-allure-reporter": "^1.0.2"
+    }
+   
+}
