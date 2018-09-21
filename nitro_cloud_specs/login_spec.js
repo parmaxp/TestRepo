@@ -1,10 +1,10 @@
 let loginPage = require("../page_objects/login.page");
-// async function createScreenShotAllure() {
-//     let screenshotFile = await browser.takeScreenshot();
-//     await allure.createAttachment("Screenshot", () => {
-//         return new Buffer(screenshotFile, "base64")
-//     }, 'image/png')();
-// }
+async function createScreenShotAllure() {
+    let screenshotFile = await browser.takeScreenshot();
+    await allure.createAttachment("Screenshot", () => {
+        return new Buffer(screenshotFile, "base64")
+    }, 'image/png')();
+}
 
 
 describe('Login Functionality', function () {
@@ -16,20 +16,15 @@ describe('Login Functionality', function () {
 
     it('User should be able to login', async function () {
         browser.waitForAngularEnabled(false);
-        await allure.createStep('Step 1', async () => await loginPage.get())();
-        await allure.createStep('Step 2', async function () {
-            await loginPage.setEmail(user_1.emailAddress);
-            await loginPage.clickContinue();
-        })();
-        await allure.createStep('Step 3', async function () {
-            await browser.sleep(2000);
+        await allure.createStep('Step 1 - Open login page', async () => await loginPage.get())();
+        await allure.createStep('Step 2 - Set email', async () => await loginPage.setEmail(user_1.emailAddress))();
+        await allure.createStep('Step 3 - Click Continue', async () => await loginPage.clickContinue())();
+        await allure.createStep('Step 4 - Set password', async () => {
+            await browser.sleep(1000);
             await loginPage.setPassword(user_1.password);
-            await loginPage.clickContinue();
+            await createScreenShotAllure();
         })();
-        await allure.createStep('Step 4', async function () {
-            await browser.wait(ExpectedConditions.urlContains(myDocumentsPage), 2000, "User should be logged in");
-        })();
-        // await createScreenShotAllure();
-                        
+        await allure.createStep('Step 5 - Click Continue', async () => await loginPage.clickContinue())();
+        await allure.createStep('Step 6 - Check user is loged in', async () => await browser.wait(ExpectedConditions.urlContains(myDocumentsPage), 2000, "User should be logged in"))();              
     });
 });

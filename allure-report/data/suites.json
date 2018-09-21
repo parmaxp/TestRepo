@@ -5,13 +5,13 @@
     "name" : "Login Functionality",
     "children" : [ {
       "name" : "User should be able to login",
-      "uid" : "32a61fc0946e52ee",
+      "uid" : "5d99c19707d3d73f",
       "parentUid" : "a9c8f11b4c0d702164a4731c0b55ffa0",
       "status" : "passed",
       "time" : {
-        "start" : 1537527252214,
-        "stop" : 1537527258478,
-        "duration" : 6264
+        "start" : 1537527999429,
+        "stop" : 1537528005793,
+        "duration" : 6364
       },
       "flaky" : false,
       "parameters" : [ ]

@@ -1,0 +1,166 @@
+{
+  "uid" : "5d99c19707d3d73f",
+  "name" : "User should be able to login",
+  "fullName" : "Login Functionality.User should be able to login",
+  "historyId" : "d54ac4c82c29a5f0d345c447bcf8c8dd",
+  "time" : {
+    "start" : 1537527999429,
+    "stop" : 1537528005793,
+    "duration" : 6364
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Step 1 - Open login page",
+      "time" : {
+        "start" : 1537527999430,
+        "stop" : 1537528000041,
+        "duration" : 611
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Step 2 - Set email",
+      "time" : {
+        "start" : 1537528000041,
+        "stop" : 1537528000242,
+        "duration" : 201
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Step 3 - Click Continue",
+      "time" : {
+        "start" : 1537528000242,
+        "stop" : 1537528000374,
+        "duration" : 132
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Step 4 - Set password",
+      "time" : {
+        "start" : 1537528000374,
+        "stop" : 1537528002745,
+        "duration" : 2371
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "630750d4fa1cb60c",
+        "name" : "Screenshot",
+        "source" : "630750d4fa1cb60c.png",
+        "type" : "image/png",
+        "size" : 31771
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "Step 5 - Click Continue",
+      "time" : {
+        "start" : 1537528002745,
+        "stop" : 1537528004530,
+        "duration" : 1785
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Step 6 - Check user is loged in",
+      "time" : {
+        "start" : 1537528004530,
+        "stop" : 1537528005298,
+        "duration" : 768
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "16104923a2222c28",
+      "name" : "Screenshot",
+      "source" : "16104923a2222c28.png",
+      "type" : "image/png",
+      "size" : 15616
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Login Functionality"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Functionality"
+  }, {
+    "name" : "testMethod",
+    "value" : "User should be able to login"
+  }, {
+    "name" : "package",
+    "value" : "Login Functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "bd7e040f92907531",
+      "status" : "skipped",
+      "statusDetails" : "This test was ignored",
+      "time" : {
+        "start" : 1537527999418,
+        "stop" : 1537527999419,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5d99c19707d3d73f.json",
+  "parameterValues" : [ ]
+}
