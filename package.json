@@ -1,11 +1,21 @@
 {
     "name": "NitroCloudTest",
     "version": "1.0.0",
-    "description": "",
+    "description": "Test automation framework based on Protractor",
     "author": "Petro Dembitskyi",
+    "main": "config.js",
+    "directories": {
+        "test": "nitro-cloud-specs"
+    },
     "license": "ISC",
     "dependencies": {
-        "jasmine-allure-reporter": "^1.0.2"
+        "jasmine-allure-reporter": "^1.0.2",
+        "allure-commandline": "^2.7.0"
+    },
+    "scripts": {
+        "posttest": "allure generate allure-results --clean -o allure-report"
+    },
+    "devDependencies": {
+        "protractor": "^5.4.1"
     }
-   
 }
