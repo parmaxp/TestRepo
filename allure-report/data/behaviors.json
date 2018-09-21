@@ -1,0 +1,17 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "User should be able to login",
+    "uid" : "32a61fc0946e52ee",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1537527252214,
+      "stop" : 1537527258478,
+      "duration" : 6264
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  } ]
+}

@@ -1,0 +1,17 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "User should be able to login",
+    "uid" : "32a61fc0946e52ee",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1537527252214,
+      "stop" : 1537527258478,
+      "duration" : 6264
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  } ]
+}

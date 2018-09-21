@@ -1,0 +1,21 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Login Functionality",
+    "children" : [ {
+      "name" : "User should be able to login",
+      "uid" : "32a61fc0946e52ee",
+      "parentUid" : "956ec9f96d41646b25b91161ff63f099",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537527252214,
+        "stop" : 1537527258478,
+        "duration" : 6264
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "956ec9f96d41646b25b91161ff63f099"
+  } ]
+}

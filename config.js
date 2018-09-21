@@ -11,6 +11,13 @@ exports.config = {
         jasmine.getEnv().addReporter(new AllureReporter({
           resultsDir: 'allure-results'
         }));
+        jasmine.getEnv().afterEach(async () => {
+            let screenshotFile = await browser.takeScreenshot();
+
+            await allure.createAttachment("Screenshot", () => {
+                return new Buffer(screenshotFile, "base64");
+            }, 'image/png')();
+        });
       }
 };
 

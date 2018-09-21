@@ -1,0 +1,42 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1537527252214' stop='1537527258479'>
+    <name>Login Functionality</name>
+    <title>Login Functionality</title>
+    <test-cases>
+        <test-case start='1537527252214' status='passed' stop='1537527258478'>
+            <name>User should be able to login</name>
+            <title>User should be able to login</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1537527252215' status='passed' stop='1537527252875'>
+                    <name>Step 1</name>
+                    <title>Step 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537527252875' status='passed' stop='1537527253183'>
+                    <name>Step 2</name>
+                    <title>Step 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537527253183' status='passed' stop='1537527257282'>
+                    <name>Step 3</name>
+                    <title>Step 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537527257282' status='passed' stop='1537527258037'>
+                    <name>Step 4</name>
+                    <title>Step 4</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='beac270b-4522-474c-a9f7-537f26b0b653-attachment.png' type='image/png' size='15906'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
