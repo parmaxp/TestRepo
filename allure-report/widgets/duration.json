@@ -1,10 +1,10 @@
 [ {
-  "uid" : "5d99c19707d3d73f",
+  "uid" : "699fbcebaf37877d",
   "name" : "User should be able to login",
   "time" : {
-    "start" : 1537527999429,
-    "stop" : 1537528005793,
-    "duration" : 6364
+    "start" : 1537528762542,
+    "stop" : 1537528767883,
+    "duration" : 5341
   },
   "status" : "passed",
   "severity" : "normal"

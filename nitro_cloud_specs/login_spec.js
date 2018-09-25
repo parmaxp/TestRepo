@@ -21,7 +21,7 @@ describe('Login Functionality', function () {
         await allure.createStep('Step 3 - Click Continue', async () => await loginPage.clickContinue())();
         await allure.createStep('Step 4 - Set password', async () => {
             await browser.sleep(1000);
-            await loginPage.setPassword(user_1.password);
+            //await loginPage.setPassword(user_1.password);
             await createScreenShotAllure();
         })();
         await allure.createStep('Step 5 - Click Continue', async () => await loginPage.clickContinue())();

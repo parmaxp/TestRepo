@@ -1,12 +1,12 @@
 {
-  "uid" : "5d99c19707d3d73f",
+  "uid" : "699fbcebaf37877d",
   "name" : "User should be able to login",
   "fullName" : "Login Functionality.User should be able to login",
   "historyId" : "d54ac4c82c29a5f0d345c447bcf8c8dd",
   "time" : {
-    "start" : 1537527999429,
-    "stop" : 1537528005793,
-    "duration" : 6364
+    "start" : 1537528762542,
+    "stop" : 1537528767883,
+    "duration" : 5341
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -18,112 +18,112 @@
     "steps" : [ {
       "name" : "Step 1 - Open login page",
       "time" : {
-        "start" : 1537527999430,
-        "stop" : 1537528000041,
-        "duration" : 611
+        "start" : 1537528762543,
+        "stop" : 1537528763292,
+        "duration" : 749
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "Step 2 - Set email",
       "time" : {
-        "start" : 1537528000041,
-        "stop" : 1537528000242,
-        "duration" : 201
+        "start" : 1537528763292,
+        "stop" : 1537528763496,
+        "duration" : 204
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "Step 3 - Click Continue",
       "time" : {
-        "start" : 1537528000242,
-        "stop" : 1537528000374,
-        "duration" : 132
+        "start" : 1537528763496,
+        "stop" : 1537528763611,
+        "duration" : 115
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "Step 4 - Set password",
       "time" : {
-        "start" : 1537528000374,
-        "stop" : 1537528002745,
-        "duration" : 2371
+        "start" : 1537528763611,
+        "stop" : 1537528765039,
+        "duration" : 1428
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "630750d4fa1cb60c",
+        "uid" : "588bea3a15f17932",
         "name" : "Screenshot",
-        "source" : "630750d4fa1cb60c.png",
+        "source" : "588bea3a15f17932.png",
         "type" : "image/png",
         "size" : 31771
       } ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : true,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 1
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
     }, {
       "name" : "Step 5 - Click Continue",
       "time" : {
-        "start" : 1537528002745,
-        "stop" : 1537528004530,
-        "duration" : 1785
+        "start" : 1537528765039,
+        "stop" : 1537528766847,
+        "duration" : 1808
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "Step 6 - Check user is loged in",
       "time" : {
-        "start" : 1537528004530,
-        "stop" : 1537528005298,
-        "duration" : 768
+        "start" : 1537528766847,
+        "stop" : 1537528767485,
+        "duration" : 638
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     } ],
     "attachments" : [ {
-      "uid" : "16104923a2222c28",
+      "uid" : "16fe56fcddfc8b5",
       "name" : "Screenshot",
-      "source" : "16104923a2222c28.png",
+      "source" : "16fe56fcddfc8b5.png",
       "type" : "image/png",
-      "size" : 15616
+      "size" : 15766
     } ],
     "parameters" : [ ],
-    "stepsCount" : 6,
-    "hasContent" : true,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 2
+    "attachmentsCount" : 2,
+    "hasContent" : true,
+    "stepsCount" : 6
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -149,18 +149,18 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "bd7e040f92907531",
+      "uid" : "a3ee1fae904bce0e",
       "status" : "skipped",
       "statusDetails" : "This test was ignored",
       "time" : {
-        "start" : 1537527999418,
-        "stop" : 1537527999419,
+        "start" : 1537528762532,
+        "stop" : 1537528762533,
         "duration" : 1
       }
     } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "5d99c19707d3d73f.json",
+  "source" : "699fbcebaf37877d.json",
   "parameterValues" : [ ]
 }

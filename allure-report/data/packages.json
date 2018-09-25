@@ -1,21 +1,21 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
-  "name" : "packages",
   "children" : [ {
     "name" : "Login Functionality",
     "children" : [ {
       "name" : "User should be able to login",
-      "uid" : "5d99c19707d3d73f",
+      "uid" : "699fbcebaf37877d",
       "parentUid" : "956ec9f96d41646b25b91161ff63f099",
       "status" : "passed",
       "time" : {
-        "start" : 1537527999429,
-        "stop" : 1537528005793,
-        "duration" : 6364
+        "start" : 1537528762542,
+        "stop" : 1537528767883,
+        "duration" : 5341
       },
       "flaky" : false,
       "parameters" : [ ]
     } ],
     "uid" : "956ec9f96d41646b25b91161ff63f099"
-  } ]
+  } ],
+  "name" : "packages"
 }

@@ -1,11 +1,11 @@
 {
-  "uid" : "bd7e040f92907531",
+  "uid" : "a3ee1fae904bce0e",
   "name" : "User should be able to login",
   "fullName" : "Login Functionality.User should be able to login",
   "historyId" : "d54ac4c82c29a5f0d345c447bcf8c8dd",
   "time" : {
-    "start" : 1537527999418,
-    "stop" : 1537527999419,
+    "start" : 1537528762532,
+    "stop" : 1537528762533,
     "duration" : 1
   },
   "description" : "",
@@ -40,6 +40,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "bd7e040f92907531.json",
+  "source" : "a3ee1fae904bce0e.json",
   "parameterValues" : [ ]
 }
